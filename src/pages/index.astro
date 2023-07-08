@@ -5,9 +5,10 @@ import Card from '../components/Card.astro';
 
 <Layout title="Portfolius App.">
 	<main>
-		<h1>Welcome to <span class="text-gradient">Portfolius</span></h1>
+		<h1 class="text-5xl font-extrabold">Welcome to <span class="text-gradient">Portfolius</span></h1>
 		<p class="instructions">
-			The easiest way to manage yout Invest Portfolio.			
+			Want to take your investments to the next level? With <strong>Portfolius</strong> you'll have everything you need right at your fingertips. <br />
+			Sync with other <code>investment apps</code> and see your changes in real-time, or add your investments manually. <br/> <strong>Share your progress</strong> with friends and receive advice from other investors.
 		</p>
 		<ul role="list" class="link-card-grid">
 			<Card
@@ -41,9 +42,9 @@ import Card from '../components/Card.astro';
 		max-width: 60ch;
 	}
 	h1 {
-		font-size: 3rem;
-		font-weight: 800;
-		margin: 0;
+		!font-size: 3rem;
+		!font-weight: 800;
+		!margin: 0;
 	}
 	.text-gradient {
 		background-image: var(--accent-gradient);
